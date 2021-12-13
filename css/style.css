@@ -9,24 +9,28 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #f5f5f5;
+  background-image: url("https://i.imgur.com/HxBKRBY.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h5 {
-    padding: 20px;
-    color: #91806e;
+  padding: 20px;
+  color: #91806e;
 }
 
 .navbar {
-    background-color: #3a3838;
-    padding: 10px;
+  background-color: #3a3838;
+  padding: 10px;
 }
 
 .navbar-text {
-    color: #c85e1b;
+  color: #c85e1b;
 }
 
 .form-signin {
@@ -38,16 +42,28 @@ h5 {
 }
 
 .input-group {
-    padding-left: 15px;
-    padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .signin-button {
-    background-color: #da4a28;
-    color: #fff;
+  background-color: #da4a28;
+  color: #fff;
 }
 
 .signin-div {
-    background-color: #f9f5f3;
-    padding: 15px;
+  background-color: #f9f5f3;
+  padding: 15px;
+}
+
+.facebook-button {
+  background-color: #2374e1;
+  color: #fff;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.material-icons {
+    margin-right: 10px;
 }
